@@ -12,4 +12,9 @@ public class adminController {
     public void manageUser(){
 
     }
+
+    @GetMapping("/manageUser22")
+    public void manageUser22(){
+
+    }
 }
