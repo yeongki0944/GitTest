@@ -1,20 +1,21 @@
-package com.todo.todo.admin;
+package com.todo.todo.logout;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/admin")
-public class adminController {
+@RequestMapping("/logout")
+public class LogoutController {
 
-    @GetMapping("/manageUser")
-    public void manageUser(){
+    @GetMapping("logout")
+    public void logout(){
 
     }
 
-    @GetMapping("/manageUser22")
-    public void manageUser22(){
+
+    @GetMapping("newlogout")
+    public void newlogout(){
 
     }
 }

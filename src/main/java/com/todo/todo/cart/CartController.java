@@ -12,4 +12,15 @@ public class CartController {
     public void cart(){
 
     }
+
+
+    @GetMapping("newCart")
+    public void newCart(){
+
+    }
+
+    @GetMapping("newCart2")
+    public void newCart2(){
+
+    }
 }
