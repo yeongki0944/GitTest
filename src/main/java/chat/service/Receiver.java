@@ -1,7 +1,7 @@
-package com.todo.chat.service;
+package chat.service;
 
+import chat.model.ChattingMessage;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.todo.chat.model.ChattingMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

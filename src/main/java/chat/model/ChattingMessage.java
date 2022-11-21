@@ -1,4 +1,4 @@
-package com.todo.chat.model;
+package chat.model;
 
 import lombok.Getter;
 import lombok.Setter;

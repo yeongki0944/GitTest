@@ -1,4 +1,4 @@
-package com.todo.chat.config;
+package config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
@@ -23,5 +23,11 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
                 .setAllowedOriginPatterns("*")
                 .withSockJS();
         // URL//chatting  <-웹소켓 연결 주소
+        registry
+                .addEndpoint("/chatting2")
+                .setAllowedOriginPatterns("*")
+                .withSockJS();
+        // URL//quiz  <-웹소켓 연결 주소
+
     }
 }

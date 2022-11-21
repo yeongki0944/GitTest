@@ -1,8 +1,8 @@
-package com.todo.chat.controller;
+package chat.controller;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
-import com.todo.chat.model.ChattingMessage;
+import chat.model.ChattingMessage;
 import org.springframework.stereotype.Component;
 
 import java.util.*;

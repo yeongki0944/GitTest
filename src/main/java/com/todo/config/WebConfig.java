@@ -1,4 +1,4 @@
-package com.todo.chat.config;
+package com.todo.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

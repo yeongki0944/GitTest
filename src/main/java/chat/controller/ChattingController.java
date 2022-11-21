@@ -1,12 +1,11 @@
-package com.todo.chat.controller;
+package chat.controller;
 
-import com.todo.chat.model.ChattingMessage;
-import com.todo.chat.service.Receiver;
-import com.todo.chat.service.Sender;
+import chat.model.ChattingMessage;
+import chat.service.Receiver;
+import chat.service.Sender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
